@@ -15,6 +15,8 @@
 		1CD2B225221A56DD00EA1D0D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD2B224221A56DD00EA1D0D /* main.m */; };
 		1CD2B22F221A56DD00EA1D0D /* Layer_ViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD2B22E221A56DD00EA1D0D /* Layer_ViewTests.m */; };
 		1CD2B23A221A56DD00EA1D0D /* Layer_ViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD2B239221A56DD00EA1D0D /* Layer_ViewUITests.m */; };
+		1CD2B248221A583D00EA1D0D /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CD2B247221A583D00EA1D0D /* 1.png */; };
+		1CD2B24B221D1E2E00EA1D0D /* PathView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD2B24A221D1E2E00EA1D0D /* PathView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		1CD2B235221A56DD00EA1D0D /* Layer和ViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Layer和ViewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CD2B239221A56DD00EA1D0D /* Layer_ViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Layer_ViewUITests.m; sourceTree = "<group>"; };
 		1CD2B23B221A56DD00EA1D0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CD2B247221A583D00EA1D0D /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		1CD2B249221D1E2E00EA1D0D /* PathView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PathView.h; sourceTree = "<group>"; };
+		1CD2B24A221D1E2E00EA1D0D /* PathView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PathView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,11 +110,14 @@
 				1CD2B216221A56DC00EA1D0D /* AppDelegate.m */,
 				1CD2B218221A56DC00EA1D0D /* ViewController.h */,
 				1CD2B219221A56DC00EA1D0D /* ViewController.m */,
+				1CD2B249221D1E2E00EA1D0D /* PathView.h */,
+				1CD2B24A221D1E2E00EA1D0D /* PathView.m */,
 				1CD2B21B221A56DC00EA1D0D /* Main.storyboard */,
 				1CD2B21E221A56DD00EA1D0D /* Assets.xcassets */,
 				1CD2B220221A56DD00EA1D0D /* LaunchScreen.storyboard */,
 				1CD2B223221A56DD00EA1D0D /* Info.plist */,
 				1CD2B224221A56DD00EA1D0D /* main.m */,
+				1CD2B247221A583D00EA1D0D /* 1.png */,
 			);
 			path = "Layer和View";
 			sourceTree = "<group>";
@@ -235,6 +243,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CD2B248221A583D00EA1D0D /* 1.png in Resources */,
 				1CD2B222221A56DD00EA1D0D /* LaunchScreen.storyboard in Resources */,
 				1CD2B21F221A56DD00EA1D0D /* Assets.xcassets in Resources */,
 				1CD2B21D221A56DC00EA1D0D /* Main.storyboard in Resources */,
@@ -263,6 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1CD2B21A221A56DC00EA1D0D /* ViewController.m in Sources */,
+				1CD2B24B221D1E2E00EA1D0D /* PathView.m in Sources */,
 				1CD2B225221A56DD00EA1D0D /* main.m in Sources */,
 				1CD2B217221A56DC00EA1D0D /* AppDelegate.m in Sources */,
 			);
@@ -436,6 +446,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2ACF3M69AT;
 				INFOPLIST_FILE = "Layer和View/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -452,6 +463,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2ACF3M69AT;
 				INFOPLIST_FILE = "Layer和View/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
